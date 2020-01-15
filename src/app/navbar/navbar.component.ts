@@ -9,9 +9,15 @@ import { pages } from '../pages';
 })
 export class NavbarComponent implements OnInit {
   pages = pages;
+  private loadPage = "default";
   constructor() { }
 
   ngOnInit() {
+
   }
 
+  navBarClick(page)
+  {
+    this.loadPage = page;
+  }
 }

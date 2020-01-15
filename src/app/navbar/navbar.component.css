@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #000;
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
@@ -17,4 +17,24 @@ li {
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
+}
+
+button
+{
+  background-color: #333;
+  border: none;
+  float: left;
+  width: 100%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #696969;
+  color: white;
 }
