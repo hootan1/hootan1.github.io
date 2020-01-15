@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  color: #000;
+  font-family: verdana;
+  font-size: 250%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+}
+
+li.navbaritem {
+  float: left;
+  width: 20%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+}
