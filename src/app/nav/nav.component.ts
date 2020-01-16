@@ -4,10 +4,10 @@ import { pages } from '../pages';
 
 @Component({
   selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  templateUrl: './nav.component.html',
+  styleUrls: ['./nav.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class NavComponent implements OnInit {
   pages = pages;
   private loadPage = "default";
   constructor() { }

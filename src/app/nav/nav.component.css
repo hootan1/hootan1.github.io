@@ -1,0 +1,47 @@
+nav {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  width: 100vw;
+  height: 100px;
+  font-family: 'Verdana';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
+  width: 33.33%;
+}
+
+.left {
+  flex-direction: row-reverse;
+}
+
+.nav-logo {
+  color: red;
+  padding: 0 75px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#japanese {
+  font-size: 50px;
+}
+
+#english {
+  font-size: 20px;
+}
+
+.right {
+  flex-direction: row;
+}
+
+
+a {
+  color: black;
+  text-align: center;
+  width: 150px;
+  text-decoration: none;
+}
